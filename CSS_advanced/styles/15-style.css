@@ -8,10 +8,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-* {
-    box-sizing: border-box;
-}
-
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -380,6 +376,10 @@ template {
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {
